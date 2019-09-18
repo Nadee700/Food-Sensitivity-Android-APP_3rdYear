@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMealActivity">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="210dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginStart="208dp"
+        android:background="#87CF8A"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="NEXT STEP"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="320dp"
+        android:layout_height="221dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286"
+        app:srcCompat="@drawable/d" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="312dp"
+        android:layout_height="75dp"
+        android:background="#C1C9BB"
+        android:text="Add a meal to test for food sensitivity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorHighlight="#F5F5F5"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColorLink="#F3ECEC"
+        android:textScaleX="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="210dp"
+        android:layout_height="63dp"
+        android:background="#AAD1AC"
+        android:hint="Pulse"
+        android:textColor="#F5F5F5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="253dp"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/buttonaddmeal"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="463dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
